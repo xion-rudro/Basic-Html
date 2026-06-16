@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Event Registration</title>
+</head>
+<body>
+
+    <h1>Student Event Registration</h1>
+
+    <form>
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="eventdate">Event Date:</label><br>
+        <input type="date" id="eventdate" name="eventdate" required><br><br>
+
+        <label>Event Categories:</label><br>
+        <input type="checkbox" id="technical" name="category" value="Technical">
+        <label for="technical">Technical</label><br>
+
+        <input type="checkbox" id="cultural" name="category" value="Cultural">
+        <label for="cultural">Cultural</label><br>
+
+        <input type="checkbox" id="sports" name="category" value="Sports">
+        <label for="sports">Sports</label><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <br>
+
+    <fieldset>
+        <legend>Event Schedule</legend>
+
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th>Day</th>
+                <th>Event Start Time</th>
+                <th>Event End Time</th>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>09:00 AM</td>
+                <td>11:00 AM</td>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>10:00 AM</td>
+                <td>12:00 PM</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>11:00 AM</td>
+                <td>01:00 PM</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>02:00 PM</td>
+                <td>04:00 PM</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>03:00 PM</td>
+                <td>05:00 PM</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td colspan="2">No events on this day</td>
+            </tr>
+        </table>
+
+    </fieldset>
+
+</body>
+</html>
