@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Event Registration</title>
+</head>
+<body>
+
+    <h1>Student Event Registration</h1>
+
+    <form>
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="dept">Department:</label><br>
+        <select id="dept" name="dept" required>
+            <option value="">Select Department</option>
+            <option value="CSE">CSE</option>
+            <option value="EEE">EEE</option>
+            <option value="BBA">BBA</option>
+            <option value="English">English</option>
+        </select><br><br>
+
+        <label for="eventdate">Event Date:</label><br>
+        <input type="date" id="eventdate" name="eventdate" required><br><br>
+
+        <label for="starttime">Start Time:</label><br>
+        <input type="time" id="starttime" name="starttime" required><br><br>
+
+        <label for="endtime">End Time:</label><br>
+        <input type="time" id="endtime" name="endtime" required><br><br>
+
+        <label>Event Categories:</label><br>
+        <input type="checkbox" id="technical" name="category" value="Technical">
+        <label for="technical">Technical</label><br>
+
+        <input type="checkbox" id="cultural" name="category" value="Cultural">
+        <label for="cultural">Cultural</label><br>
+
+        <input type="checkbox" id="sports" name="category" value="Sports">
+        <label for="sports">Sports</label><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <br>
+
+    <fieldset>
+        <legend>Event Schedule</legend>
+
+        <table border="1" cellpadding="8" cellspacing="0">
+            <tr>
+                <th>Day</th>
+                <th>Building Number</th>
+                <th>Room Number</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+            </tr>
+
+            <tr>
+                <td>Sunday</td>
+                <td colspan="4">No room available on Sunday</td>
+            </tr>
+
+            <tr>
+                <td>Monday</td>
+                <td>1</td>
+                <td>301</td>
+                <td>09:00 AM</td>
+                <td>11:00 AM</td>
+            </tr>
+
+           <td>2</td>
+                <td>205</td>
+                <td>10:00 AM</td>
+                <td>12:00 PM</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td>1</td>
+                <td>302</td>
+                <td>11:00 AM</td>
+                <td>01:00 PM</td>
+            </tr>
+
+            <tr>
+                <td>Thursday</td>
+                <td>3</td>
+                <td>401</td>
+                <td>02:00 PM</td>
+                <td>04:00 PM</td>
+            </tr>
+
+            <tr>
+                <td>Friday</td>
+                <td>2</td>
+                <td>210</td>
+                <td>03:00 PM</td>
+                <td>05:00 PM</td>
+            </tr>
+
+        </table>     <tr>
+                <td>Tuesday</td>
+            
+
+    </fieldset>
+
+</body>
+</html>
